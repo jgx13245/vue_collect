@@ -1,0 +1,23 @@
+.picker {
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+}
+.picker-item {
+  overflow: visible;
+  font-size: 20px;
+  text-align: center;
+}
+.mint-datetime-action{
+color:#FFA11B;
+font-size: 12px;
+font-weight: bold;
+}
+.mint-popup{
+  width: 100%;
+  transform: translate3d(-50%, 0 0)
+}
+.mint-popup-bottom{
+  -webkit-transform: translate3d(-50%, 0, 0);
+}

@@ -1,0 +1,6 @@
+[defaults]
+url=https://sentry.io/
+org=wuwangkeji
+project=app-activity
+[auth]
+token=3a34bc7ee54e48bf99010127124e683d2a714db90f9d4e1bb1fe6edb6c9d3e77

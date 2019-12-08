@@ -1,0 +1,81 @@
+[{
+    "country": "app",
+    "year": "1750",
+    "value": 163
+    },
+    {
+    "country": "app",
+    "year": "1800",
+    "value": 203
+    },
+    {
+    "country": "app",
+    "year": "1850",
+    "value": 276
+    },
+    {
+    "country": "app",
+    "year": "1900",
+    "value": 408
+    },
+    {
+    "country": "app",
+    "year": "1950",
+    "value": 547
+    },
+    {
+    "country": "app",
+    "year": "1999",
+    "value": 729
+    },
+    {
+    "country": "app",
+    "year": "2050",
+    "value": 628,
+    },
+    {
+    "country": "app",
+    "year": "2100",
+    "value": 828
+    },
+    {
+    "country": "触摸屏",
+    "year": "1750",
+    "value": 502
+    },
+    {
+    "country": "触摸屏",
+    "year": "1800",
+    "value": 635
+    },
+    {
+    "country": "触摸屏",
+    "year": "1850",
+    "value": 809
+    },
+    {
+    "country": "触摸屏",
+    "year": "1900",
+    "value": 947
+    },
+    {
+    "country": "触摸屏",
+    "year": "1950",
+    "value": 1402
+    },
+    {
+    "country": "触摸屏",
+    "year": "1999",
+    "value": 3634
+    },
+    {
+    "country": "触摸屏",
+    "year": "2050",
+    "value": 5268
+    },
+    {
+    "country": "触摸屏",
+    "year": "2100",
+    "value": 7268
+    }
+  ]

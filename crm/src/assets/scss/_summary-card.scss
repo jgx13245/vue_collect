@@ -1,0 +1,31 @@
+.summary-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: #FFF;
+  min-height: 204px;
+  border-radius: 4px;
+}
+
+.summary-card__header {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.summary-card__info {
+  font-size: 30px;
+  padding: 5px 0 20px 0;
+}
+
+.summary-card__tip {
+  margin-top: 10px;
+  border-top: 1px solid rgb(213,213,213);
+  font-size: 14px;
+  padding: 10px 0;
+  color: #8c8c8c;
+}

@@ -1,0 +1,84 @@
+.home-sale {
+  border-radius: 4px;
+  background-color: #FFF;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.home-sale__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgba(213,213,213, 0.5);
+}
+
+.home-sale__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home-sale__tool {
+  min-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-sale__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-sale__subtitle {
+  font-size: 14px;
+}
+
+.home-sale__chart {
+  flex: 3;
+}
+
+.home-sale__list {
+  flex: 1;
+}
+
+.home-sale__rank {
+  min-height: 400px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-sale__rankitem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.home-sale__rankitem-title {
+  padding: 10px 0 10px 50px;
+  &::before {
+    content: attr(data-index);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate3d(0,-50%,0);
+    background: #F5F5F5;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  &.is-top {
+    &::before {
+      background-color: #354657;
+      color: #FFF;
+    }
+  }
+}
